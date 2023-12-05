@@ -22,7 +22,7 @@ const mockdata = [
   {
     title: 'Interactive Map',
     description:
-      `Visualizing crisis information is crucial. OUR SOS offers an interactive map view that displays crises and dangers in your area. This user-friendly interface helps you understand the proximity of threats and aids in making quick and informed decisions.`,
+      `Visualizing crisis information is crucial. OURSOS offers an interactive map view that displays crises and dangers in your area. This user-friendly interface helps you understand the proximity of threats and aids in making quick and informed decisions.`,
     icon: IconWorld,
   },
   {
@@ -40,7 +40,7 @@ export function Features() {
       <feature.icon
         style={{ width: rem(50), height: rem(50) }}
         stroke={2}
-        color={theme.colors.deepBlue[9]}
+        color={theme.colors.deepBlue[0]}
       />
       <Title order={3} fz="lg" fw={500} className={classes.cardTitle} mt="md">
         {feature.title}
@@ -59,7 +59,7 @@ export function Features() {
       </Title>
 
       <Text c="dimmed" className={classes.description} ta="center" mt="md">
-        OURSOS delivers emergency alerts and essential information, bridging language gaps to ensure your safety and that of your loved ones, wherever you are.
+        OURSOS delivers emergency alerts and information, bridging language gaps to ensure your safety and that of your loved ones, wherever you are.
       </Text>
       <SimpleGrid cols={{ base: 1, md: 3 }} spacing="xl" mt={50}>
         {features}

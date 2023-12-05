@@ -2,22 +2,34 @@ import { Anchor, Group, Title } from '@mantine/core';
 import classes from './Footer.module.css';
 
 const links = [
-    { link: '#', label: 'Contact' },
+    { link: '/', label: 'Home' },
+    { link: '/ContactPage', label: 'Contact' },
     { link: 'https://blog-our-sos-main.vercel.app/', label: 'Blog' },
 ];
 
 export function Footer() {
     const items = links.map((link) => (
-        <Anchor
-            c="dimmed"
-            key={link.label}
-            href={link.link}
-            lh={1}
-            target="_blank"
-            size="sm"
-        >
-            {link.label}
-        </Anchor>
+
+        link.label == 'Blog' ?
+            <Anchor
+                c="dimmed"
+                key={link.label}
+                href={link.link}
+                lh={1}
+                target='_blank'
+                size="sm"
+            >
+                {link.label}
+            </Anchor> :
+            <Anchor
+                c="dimmed"
+                key={link.label}
+                href={link.link}
+                lh={1}
+                size="sm"
+            >
+                {link.label}
+            </Anchor>
     ));
 
     return (
