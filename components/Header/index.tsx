@@ -1,6 +1,6 @@
 import { Container, Group, Burger, Image, Text, Menu, rem } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import classes from './header.module.css';
+import classes from './Header.module.css';
 import Link from 'next/link'
 
 const links = [

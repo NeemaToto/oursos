@@ -1,5 +1,5 @@
 import { TextInput, Textarea, SimpleGrid, Group, Title, Button, Card, Container, useMantineTheme, rem } from '@mantine/core';
-import classes from './contact.module.css';
+import classes from './Contact.module.css';
 import { useState } from 'react'
 import { IconAt } from '@tabler/icons-react';
 
