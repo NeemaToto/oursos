@@ -9,7 +9,6 @@ const links = [
 
 export function Footer() {
     const items = links.map((link) => (
-
         link.label == 'Blog' ?
             <Anchor
                 c="dimmed"
