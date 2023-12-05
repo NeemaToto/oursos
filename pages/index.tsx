@@ -1,9 +1,13 @@
-import { Button, Group } from "@mantine/core";
+import Animation from 'components/Animation'
+import { Features } from "components/Features";
+import { Footer } from 'components/Footer'
 
 export default function IndexPage() {
   return (
-    <Group mt={50} justify="center">
-      <Button size="xl">Welcome to Mantine!</Button>
-    </Group>
+    <div>
+      <Animation />
+      <Features />
+      <Footer />
+    </div>
   );
 }
