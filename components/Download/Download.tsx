@@ -15,7 +15,6 @@ export function Download() {
         <Text fz="sm" c="dimmed">
           Keep up to date with the latest emergencies and trascend the language barier, ensuring you&apos;ll get notified about emergencies in a language you can understand.
         </Text>
-
         <div className={classes.controls}>
           <Link href='/'><Image src='/appleStore.svg' w={180} alt='Link to the App Store to download OURSOS' /></Link>
           <Link href='/'><Image src='/googleStore.png' w={200} alt='Link to the Google Playstore to download OURSOS' /></Link>

@@ -77,15 +77,27 @@
   }
 }
 
-@media screen and (max-width: 774px) {
+@media screen and (max-width: 790px) {
   .body {
     width: 30rem
   }
 }
 
-@media screen and (max-width: 647px) {
+@media screen and (max-width: 675px) {
   .card {
     background-image: url('/');
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .body {
+    width: 25rem
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .body {
+    width: 20rem
   }
 }
 
