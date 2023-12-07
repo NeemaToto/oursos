@@ -7,5 +7,5 @@ OURSOS delivers emergency alerts and information, bridging language gaps to ensu
 
 ## Form API Used: [FormEasy](https://devapt.com/formeasy)
 
-### To run on localhost:
+## To run on localhost:
 yarn run dev
