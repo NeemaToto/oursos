@@ -1,11 +1,8 @@
+# OurSOS Landing Page
 
-# OurSOS Landing Page - Anxious Travelers
+## Emergency Alerts - Discover OURSOS
+OURSOS delivers emergency alerts and information, bridging language gaps to ensure your safety and that of your loved ones, wherever you are.
 
 ## Uses [Mantine UI](https://mantine.dev)
 
-## Installations
-```
-npm install --save @lottiefiles/lottie-player
-npm install @mantine/form
-npm i @tabler/icons-react
-```
+## Form API Used: [FormEasy](https://devapt.com/formeasy)
